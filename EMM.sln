@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMM.Api", "EMM.Api\EMM.Api.csproj", "{7BBA1A2E-D7F7-470F-AFA2-FF34017418D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMM.Infrastructure.Ef", "EMM.Infrastructure.Ef\EMM.Infrastructure.Ef.csproj", "{CDCCEE70-3AA0-4616-A465-1BE622ECB0FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMM.Domain", "EMM.Domain\EMM.Domain.csproj", "{04045EFA-08FC-444F-94BB-B76B4004F9F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BBA1A2E-D7F7-470F-AFA2-FF34017418D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BBA1A2E-D7F7-470F-AFA2-FF34017418D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BBA1A2E-D7F7-470F-AFA2-FF34017418D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BBA1A2E-D7F7-470F-AFA2-FF34017418D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDCCEE70-3AA0-4616-A465-1BE622ECB0FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDCCEE70-3AA0-4616-A465-1BE622ECB0FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDCCEE70-3AA0-4616-A465-1BE622ECB0FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDCCEE70-3AA0-4616-A465-1BE622ECB0FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04045EFA-08FC-444F-94BB-B76B4004F9F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04045EFA-08FC-444F-94BB-B76B4004F9F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04045EFA-08FC-444F-94BB-B76B4004F9F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04045EFA-08FC-444F-94BB-B76B4004F9F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
