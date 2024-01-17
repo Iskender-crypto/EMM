@@ -5,7 +5,6 @@ using EMM.Domain.Utils;
 using EMM.Infrastructure.Ef;
 using Microsoft.AspNetCore.Mvc;
 
-
 namespace EMM.Api.Controllers;
 
 [ApiController]

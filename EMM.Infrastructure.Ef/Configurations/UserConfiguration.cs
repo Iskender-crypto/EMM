@@ -4,10 +4,10 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace EMM.Infrastructure.Ef.Configurations;
 
-public class UserConfiguration : IEntityTypeConfiguration<User>
+public class StudentConfiguration : IEntityTypeConfiguration<Student>
 {
-    public void Configure(EntityTypeBuilder<User> builder)
+    public void Configure(EntityTypeBuilder<Student> builder)
     {
-        builder.ToTable("User");
+        builder.ToTable("Student");
     }
 }

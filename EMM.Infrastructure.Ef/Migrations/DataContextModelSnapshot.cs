@@ -22,7 +22,7 @@ namespace EMM.Infrastructure.Ef.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("EMM.Domain.Entities.User", b =>
+            modelBuilder.Entity("EMM.Domain.Entities.Student", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -80,7 +80,7 @@ namespace EMM.Infrastructure.Ef.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("User", (string)null);
+                    b.ToTable("Student", (string)null);
                 });
 #pragma warning restore 612, 618
         }

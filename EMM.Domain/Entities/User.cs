@@ -1,6 +1,6 @@
 ﻿namespace EMM.Domain.Entities;
 
-public class User : Entity
+public class Student : Entity
 {
     public string FirstName { get; set; }
     public string LastName { get; set; }

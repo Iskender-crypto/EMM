@@ -7,7 +7,7 @@ namespace EMM.Api.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class StudentController : BaseController<User>
+public class StudentController : BaseController<Student>
 {
     public StudentController(DataContext dataContext) : base(dataContext)
     {

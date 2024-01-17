@@ -13,7 +13,7 @@ namespace EMM.Infrastructure.Ef.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "User",
+                name: "Student",
                 columns: table => new
                 {
                     Id = table.Column<long>(type: "bigint", nullable: false)
@@ -34,7 +34,7 @@ namespace EMM.Infrastructure.Ef.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_User", x => x.Id);
+                    table.PrimaryKey("PK_Student", x => x.Id);
                 });
         }
 
@@ -42,7 +42,7 @@ namespace EMM.Infrastructure.Ef.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "User");
+                name: "Student");
         }
     }
 }
