@@ -24,5 +24,5 @@ public class Student : Entity
     public string Email { get; set; }
     public string Rating { get; set; }
     public int Payment { get; set; }
-    public string Status { get; set; }
+    public List<string> Roles { get; set; }
 }

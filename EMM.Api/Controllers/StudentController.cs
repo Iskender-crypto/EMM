@@ -1,7 +1,10 @@
-﻿using EMM.Infrastructure.Ef;
+﻿using System.Text.Json;
+using EMM.Infrastructure.Ef;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using EMM.Domain.Entities;
+using EMM.Domain.Models;
+using Microsoft.AspNetCore.Authentication;
 
 namespace EMM.Api.Controllers;
 
